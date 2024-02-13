@@ -11,7 +11,7 @@ import SwiftData
 class Prospect {
     let name: String
     let email: String
-    let isContacted: Bool
+    var isContacted: Bool
 
     init(name: String, email: String, isContacted: Bool) {
         self.name = name
